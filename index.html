@@ -8,8 +8,8 @@
 <body>
     <header>
         <h1>Dog Meeting</h1>
-        <h2>Brainstorming Session</h2>
-        <h3>April 16, 2024</h3>
+        <h2><i>Brainstorming Session</i></h2>
+        <h3><em>Date: 4-16-2024</em></h3>
     </header>
     <nav>
         <ul>
@@ -56,7 +56,7 @@
         </section>
         
         <section>
-            <h2>Diagrams Presented</h2>
+            <h2><b>Diagrams Presented</b></h2>
             <img src="diagram.png" alt="important diagram">
         </section>
 
@@ -90,6 +90,20 @@
             <textarea id="comments" name="comments"></textarea>
             <br>
             <button type="submit">Submit Feedback</button>
+    
+            <label for="treats">How many treats would you like?</label><br><br>
+            <select name="treats" id="treats">
+                 <option value="1">1</option>
+                 <option value="3">3</option>
+                 <option value="9000">9000</option>
+            </select> 
+            <label for="favoriteball">Favorite type of ball?</label><br><br>
+            <input list="favoriteball" id="favoriteball" name="favoriteball" />
+            <datalist id="ballsLists">
+                <option value="tennis ball"></option>
+                <option value="tennis ball"></option>
+                <option value="tennis ball"></option>
+            </datalist>
         </fieldset>
     </form>
 </html>
